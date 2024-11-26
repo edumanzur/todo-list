@@ -1,59 +1,40 @@
-# TodoList
+Todo List em Angular
+Este repositório contém uma aplicação de lista de tarefas (Todo List) desenvolvida em Angular. O objetivo deste projeto é demonstrar a construção de uma aplicação básica, ideal para aprendizado e prática de conceitos fundamentais de Angular.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.1.
+Funcionalidades
+Adicionar tarefas à lista.
+Marcar tarefas como concluídas.
+Remover tarefas da lista.
+Persistência simples utilizando armazenamento local (localStorage).
+Tecnologias Utilizadas
+Angular - Framework principal para desenvolvimento do frontend.
+TypeScript - Linguagem de programação.
+Bootstrap (opcional) - Para estilização básica.
+Pré-requisitos
+Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 
-## Development server
+Node.js (versão recomendada: LTS)
+Angular CLI
+Clonando o Repositório
+bash
+Copiar código
+git clone https://github.com/edumanzur/todo-list.git
+cd todo-list
+Instalando Dependências
+Execute o seguinte comando para instalar as dependências do projeto:
 
-To start a local development server, run:
+bash
+Copiar código
+npm install
+Executando a Aplicação
+Após a instalação das dependências, execute:
 
-```bash
+bash
+Copiar código
 ng serve
-```
+Acesse a aplicação no navegador pelo endereço: http://localhost:4200.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Estrutura do Projeto
+src/app: Contém os componentes, serviços e módulos da aplicação.
+src/assets: Arquivos estáticos como imagens ou ícones.
+src/environments: Configurações para diferentes ambientes (produção e desenvolvimento).
