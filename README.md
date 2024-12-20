@@ -1,9 +1,10 @@
-# Todo List em Angular
+## **🅰️Todo List em Angular🅰️** 
 ![image](https://github.com/user-attachments/assets/c31bb1a5-5927-40cf-a014-d5512a79edaa)
 
 Este repositório contém uma aplicação de lista de tarefas (Todo List) desenvolvida em Angular. O objetivo deste projeto é demonstrar a construção de uma aplicação básica, ideal para aprendizado e prática de conceitos fundamentais de Angular.
 
-![image](https://github.com/user-attachments/assets/c62baa7a-8e25-46b9-80f6-a613a864b22b)
+![image](https://github.com/user-attachments/assets/59f640ba-92f3-43d4-bc5f-0757e8199f85)
+
 
 ## Funcionalidades
 
@@ -13,7 +14,7 @@ Este repositório contém uma aplicação de lista de tarefas (Todo List) desenv
 - Marcar tarefas como concluídas.
 - Remover tarefas da lista.
 - Persistência simples utilizando armazenamento local (localStorage).
-
+🅰
 ## Tecnologias Utilizadas
 
 - [Angular](https://angular.io/) - Framework principal para desenvolvimento do frontend.
